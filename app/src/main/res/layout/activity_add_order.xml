@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="niv.hfad.com.niv2.AddOrderActivity">
+
+    <EditText
+    android:id="@+id/color"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:ems="8"
+    android:inputType="text"
+    android:hint="@string/color"
+    />
+
+
+    <EditText
+        android:id="@+id/amount_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:ems="8"
+        android:inputType="number"
+        android:hint="@string/amount"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onAddOrder"
+        android:text="@string/add_to_cart"/>
+</LinearLayout>

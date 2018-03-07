@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Niv2</string>
+    <string name="necklaces">Necklaces</string>
+    <string name="bracelets">Bracelets</string>
+    <string name="earrings">Earrings</string>
+    <string name="total_orders">Total Orders</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="item_name">item name</string>
+    <string name="retail">retail</string>
+    <string name="wholesale">wholesale</string>
+    <string name="send_mail">Send Mail</string>
+    <string name="enter_client_name">enter client name :</string>
+    <string name="color">Color :</string>
+    <string name="amount">Amount :</string>
+    <string name="add_color">Add color</string>
+    <string name="image">image</string>
+
+</resources>
